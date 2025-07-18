@@ -11,8 +11,8 @@ spring:
     hibernate:
       ddl-auto: update
 
-boot:
-  message: Hello, Department Service Spring Cloud Bus Demo
+custom:
+  message: "Hello, Department Service Spring Cloud Bus Demo: remote department-service.yml"
 
 eureka:
   client:
