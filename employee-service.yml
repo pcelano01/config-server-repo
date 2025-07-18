@@ -14,11 +14,11 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
-boot:
-  message: "Hello, Employee Service Spring Cloud Bus Demo: remote application.yml"
 
 server:
   port: 8081
+  boot:
+  message: "Hello, Employee Service Spring Cloud Bus Demo: remote application.yml"
 
 eureka:
   client:
