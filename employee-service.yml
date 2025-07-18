@@ -17,9 +17,8 @@ spring:
 
 server:
   port: 8081
-  
 custom:
-  message: "Hello, Employee Service Spring Cloud Bus Demo: remote application.yml"
+    message: "Hello, Employee Service Spring Cloud Bus Demo: local application.yml"
 
 eureka:
   client:
